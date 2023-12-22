@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.btn_search).setOnClickListener(v ->{
-            String URL = "https://lab12-api.web.app/";
+            String URL = "https://tools-api.italkutalk.com/java/lab12";
 
             Request request = new Request.Builder().url(URL).build();
 
